@@ -180,7 +180,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 0.5; /*  ssikdar   6.10.2018   */
+  /* opacity: 0.8;   ssikdar   6.10.2018   */
 }
 
 header.masthead hr {

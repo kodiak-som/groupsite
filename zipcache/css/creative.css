@@ -92,15 +92,15 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: capitalize;
-  /* ORIGINALLY text-transform: uppercase;   **** ssikdar 6.10.2018    */
-
+  /* ORIGINALLY text-transform: uppercase; ssidkar 6.10.2018 - DN_Edit */
   color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #f05f40;
-  text-transform: uppercase;  /*  **** ssikdar  */
+  text-transform: uppercase;
+  /*  **** ssidkar 6.10.2018 - DN_Edit  */
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -108,14 +108,13 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: capitalize;
-  /* ORIGINALLY text-transform: uppercase;   **** ssikdar 6.10.2018    */
+  /* ORIGINALLY text-transform: uppercase; ssidkar 6.10.2018 - DN_Edit */
   color: #212529;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #F05F40;
-  text-transform: uppercase;  /*  **** ssikdar  */
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,

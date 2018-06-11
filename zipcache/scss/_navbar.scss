@@ -6,12 +6,14 @@
   @include transition-all;
   .navbar-brand {
     font-weight: 700;
-    text-transform: uppercase;
+    //text-transform: uppercase;
+    text-transform: capitalize;  /* ORIGINALLY text-transform: uppercase; ssidkar 6.10.2018 - DN_Edit */
     color: $primary;
     @include sans-serif-font;
     &:focus,
     &:hover {
       color: darken($primary, .1);
+      text-transform: uppercase;  /*  **** ssidkar 6.10.2018 - DN_Edit  */
     }
   }
   .navbar-nav {
@@ -20,7 +22,8 @@
       > a.nav-link:focus {
         font-size: .9rem;
         font-weight: 700;
-        text-transform: uppercase;
+        //text-transform: uppercase;
+        text-transform: capitalize;   /* ORIGINALLY text-transform: uppercase; ssidkar 6.10.2018 - DN_Edit */
         color: $gray-900;
         &:hover {
           color: $primary;

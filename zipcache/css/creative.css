@@ -101,6 +101,7 @@ img::-moz-selection {
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #f05f40;
   text-transform: uppercase;  /*  **** ssikdar  */
+  transform: scale(1.3);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -115,6 +116,7 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #F05F40;
+    transform: scale(1.3);
   text-transform: uppercase;  /*  **** ssikdar  */
 }
 
